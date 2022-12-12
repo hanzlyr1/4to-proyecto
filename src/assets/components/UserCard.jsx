@@ -27,7 +27,10 @@ const UserCard = ({ user, deleteUserById, setUpdateInfo, setCloseForm, setElimin
                 </li>
                 <li className='card__item'>
                     <span className='card__span'>Birthday</span>
-                    {user.birthday}
+                    <div className='gift-card'>
+
+                        <i class="fa-solid fa-gift gift" ></i>{user.birthday}
+                    </div>
                 </li>
             </ul>
             <footer className='card__footer'>

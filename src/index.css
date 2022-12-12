@@ -16,7 +16,7 @@ span {
     margin-top: 0;
     margin-bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
+    font-weight: 500;
 
 }
 
@@ -43,13 +43,14 @@ input {
     padding: 1.8em 1.5em;
     border-radius: 10px;
     border: 1px solid rgba(235, 40, 40, 0.267);
-    transition: transform 0.10ms ease;
+    transition: transform 1ms ease;
     background-color: #fff;
+
 
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 .card__title {

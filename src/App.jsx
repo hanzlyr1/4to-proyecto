@@ -34,10 +34,13 @@ function App() {
     <div className="App">
       <div className={`delet   ${eliminar && `delete`}`}>
         <div className="caja">
-          <button></button>
-          <h2 className='h2'>Usuario Eliminado</h2>
-          <p>El usuario  se ha eliminado Correctamente</p>
-          <button onClick={nav} className="btn-nav">Enviar</button>
+          <div className='div-boton-x'>
+            <button onClick={nav} className='boton-x'>x</button>
+
+          </div>
+          <h2 className='h2'>Usuario eliminado</h2>
+          <p>El usuario  se ha eliminado correctamente</p>
+          <button onClick={nav} className="btn-nav">Aceptar</button>
         </div>
       </div>
       <div className='container'>

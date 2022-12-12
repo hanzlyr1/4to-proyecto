@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(#0004);
 
 
 
@@ -212,7 +212,7 @@ font {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(#0004);
     background-color: rgba(208, 211, 211, 0.507);
 }
 
@@ -231,7 +231,9 @@ font {
     align-items: flex-start;
     gap: 2em;
     padding: 2.5em 3em;
-    border-radius: 1em;
+    backdrop-filter: blur(#0004);
+    padding-top: 0;
+    position: absolute;
 }
 
 
@@ -251,4 +253,23 @@ p {
     color: white;
     width: 100%;
     padding: 1rem 3rem;
+}
+
+.gift-card {
+    display: flex;
+    gap: 0.4rem;
+
+}
+
+.gift {
+    color: rgba(255, 0, 0, 0.788);
+}
+
+.boton-x {
+    position: absolute;
+    font-size: 2.5rem;
+    right: 3rem;
+    top: 1rem;
+    border: none;
+    background-color: white;
 }
