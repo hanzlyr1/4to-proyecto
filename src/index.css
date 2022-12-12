@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+span {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+
+}
+
+ul {
+    padding-left: 0;
+}
+
+button {
+    display: inline-block;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+}
+
+input {
+    outline: 0;
+    color: inherit;
+    font-family: inherit;
+}
+
+.card {
+    width: 100%;
+    max-width: 800px;
+    padding: 1.8em 1.5em;
+    border-radius: 10px;
+    border: 1px solid rgba(235, 40, 40, 0.267);
+    transition: transform 0.10ms ease;
+    background-color: #fff;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card__title {
+    margin-bottom: 1.3rem;
+
+}
+
+.card__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.card__body {
+    display: grid;
+    gap: 1rem;
+}
+
+.card__span {
+    text-transform: uppercase;
+    color: rgba(148, 138, 138, 0.726);
+    font-size: 15px;
+    position: relative;
+    left: 1em;
+
+}
+
+.card__footer {
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8em;
+}
+
+.card__btn {
+    width: 2em;
+    aspect-ratio: 1;
+    font-size: 1.2rem;
+    padding: 0.4em;
+    border-radius: 0.3em;
+
+}
+
+.card__btn__trash {
+    color: white;
+    background-color: rgb(221, 92, 92);
+}
+
+.card__btn__edit {
+    color: #aaa;
+    border: 1px solid currentColor;
+}
+
+.card__btn:hover {
+    box-shadow: 0 0 0.4em #0004;
+    transition: box-shadow 100ms ease;
+
+}
