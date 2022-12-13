@@ -41,6 +41,7 @@ const FormUser = ({ createNewUser, updateInfo, updateUserById, setUpdateInfo, se
 
     return (
         <form className='form' onSubmit={handleSubmit(submit)}>
+
             <button onClick={() => setCloseForm(true)} className='form__x'>X</button>
             <h2 className="form__title">{updateInfo ? "Editar Usuario" : "Nuevo Usuario"}</h2>
             <div className='form__div'>
